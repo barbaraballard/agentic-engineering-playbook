@@ -64,7 +64,7 @@ This isn't about avoiding paying. It's about not being surprised.
 
 ---
 
-## Part 2: The Five Foundations
+## Part 2: The Six Foundations
 
 ### 1. Source control with a review gate
 
