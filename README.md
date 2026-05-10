@@ -25,7 +25,8 @@ A collection of patterns for building production software with AI coding agents.
 | # | Chapter | What it covers |
 |---|---------|---------------|
 | 1 | [Getting Started](chapters/01-getting-started.md) | Ground-clearing decisions and the five foundations contract |
-| 2 | [Code Quality](chapters/02-code-quality.md) | Why traditional review fails for AI-generated code, and what to do instead |
+| 2 | [Guardrails](chapters/02-guardrails.md) | Prevent disasters from humans and LLMs — environment pipeline, database controls, secret hygiene |
+| 3 | [Code Quality](chapters/03-code-quality.md) | Why traditional review fails for AI-generated code, and what to do instead |
 
 ### Stages (pick up when ready)
 
