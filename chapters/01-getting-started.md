@@ -3,7 +3,6 @@ layout: page
 title: "Getting Started — The Foundations Contract"
 ---
 
-# Getting Started — The Foundations Contract
 
 *Before you add another feature, you will have these foundations in place.*
 
