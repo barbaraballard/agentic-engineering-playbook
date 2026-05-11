@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Code Quality — Every Word Is Spelled Correctly"
+permalink: /code-quality/
 ---
 
 # Code Quality — Every Word Is Spelled Correctly

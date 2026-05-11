@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Security in the Mythos Era"
+permalink: /security-mythos/
 ---
 
 # Security in the Mythos Era

@@ -27,9 +27,9 @@ These build on each other. Start here.
 
 | # | Chapter | What it covers |
 |---|---------|---------------|
-| 1 | [Getting Started](chapters/01-getting-started) | Ground-clearing decisions and the six foundations contract |
-| 2 | [Guardrails](chapters/02-guardrails) | Prevent disasters from humans and LLMs — environment pipeline, database controls, secret hygiene |
-| 3 | [Code Quality](chapters/03-code-quality) | Why traditional review fails for AI-generated code, and what to do instead |
+| 1 | [Getting Started](getting-started) | Ground-clearing decisions and the six foundations contract |
+| 2 | [Guardrails](guardrails) | Prevent disasters from humans and LLMs — environment pipeline, database controls, secret hygiene |
+| 3 | [Code Quality](code-quality) | Why traditional review fails for AI-generated code, and what to do instead |
 
 ## Stage chapters (pick up when ready)
 
@@ -41,8 +41,8 @@ These are independent. Reach for them when the need arises.
 | API Tokens & Secrets | You have your first API key and nowhere safe to put it |
 | Multiplying Throughput | Your single-agent workflow is a bottleneck |
 | Running a Team of Agents | You need specialized roles, not just more hands |
-| [Security Fundamentals](chapters/security-fundamentals) | You have users and something worth protecting — layers, attack trees, tooling |
-| [Security in the Mythos Era](chapters/security-mythos) | You depend on open-source packages and probability of detection = 1 |
+| [Security Fundamentals](security-fundamentals) | You have users and something worth protecting — layers, attack trees, tooling |
+| [Security in the Mythos Era](security-mythos) | You depend on open-source packages and probability of detection = 1 |
 | Security Operations | You need ongoing security practice, not just initial setup |
 | Support Operations | You're the entire support team |
 | Finance Operations | You have revenue and need to track costs |

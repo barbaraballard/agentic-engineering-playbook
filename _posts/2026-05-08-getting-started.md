@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Getting Started — The Foundations Contract"
+permalink: /getting-started/
 ---
 
 

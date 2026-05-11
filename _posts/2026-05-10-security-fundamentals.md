@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Security Fundamentals"
+permalink: /security-fundamentals/
 ---
 
 # Security Fundamentals

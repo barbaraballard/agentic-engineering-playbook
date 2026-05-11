@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Guardrails — Preventing Disasters"
+permalink: /guardrails/
 ---
 
 # Guardrails — Preventing Disasters
