@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Security Fundamentals"
+---
+
 # Security Fundamentals
 
 *Security isn't a feature you add later. It's a way of thinking about where things can go wrong.*

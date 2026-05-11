@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Guardrails — Preventing Disasters"
+---
+
 # Guardrails — Preventing Disasters
 
 *Humans make mistakes. LLMs make mistakes. Build processes and systems so that neither can cause a disaster.*

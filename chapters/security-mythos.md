@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Security in the Mythos Era"
+---
+
 # Security in the Mythos Era
 
 *Probability of detection = 1. Everything will be found. Plan accordingly.*
