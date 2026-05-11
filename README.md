@@ -38,7 +38,9 @@ These chapters are independent. Reach for them when the need arises.
 | API Tokens & Secrets | You have your first API key and nowhere safe to put it |
 | Multiplying Throughput | Your single-agent workflow is a bottleneck |
 | Running a Team of Agents | You need specialized roles, not just more hands |
-| Application Security | You have users and something worth protecting |
+| Security Fundamentals | You have users and something worth protecting — layers, attack trees, tooling |
+| Security in the Mythos Era | You depend on open-source packages and probability of detection = 1 |
+| Security Operations | You need ongoing security practice, not just initial setup |
 | Support Operations | You're the entire support team |
 | Finance Operations | You have revenue and need to track costs |
 
