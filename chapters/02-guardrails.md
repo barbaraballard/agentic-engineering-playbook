@@ -213,6 +213,20 @@ Your toolchain will increasingly generate automated fix suggestions — GitHub A
 
 ---
 
+## Play 11: Tell the agent when something is a regression
+
+*If it used to work, say so. Otherwise the agent will debug from scratch and may rewrite stable code.*
+
+When something breaks, your instinct is "X is broken, fix it." The agent takes that at face value and treats it as a greenfield debugging problem — it reads the code, forms a theory, and starts changing things. If the code is complex, it may decide the "fix" is a rewrite of something that was working fine yesterday.
+
+One word changes everything: **regression.** "X is a regression — it was working before" tells the agent to focus on what changed recently, not on re-understanding the entire system. It will check recent commits, look at recent diffs, and find the change that broke it. This is almost always faster and less destructive than a from-scratch investigation.
+
+- [ ] When reporting bugs to your agent, specify whether it's new behavior or a regression
+- [ ] If it's a regression, tell the agent approximately when it last worked (or which PR/commit you suspect)
+- [ ] Project instructions: "When told something is a regression, check recent changes first before investigating the broader codebase"
+
+---
+
 ## Signals you've outgrown these plays
 
 - You have multiple agents working in parallel and need coordination guardrails (not just individual ones)
