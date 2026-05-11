@@ -1,6 +1,5 @@
 title: Agentic Engineering Playbook
-author: 
-  name: Barbara Ballard
+author: Barbara Ballard
 theme: minima
 
 description: > 
@@ -69,7 +68,7 @@ minima:
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
   nav_pages:
-    - index.md
+    - chapters.md
 #
 #   Set to `true` to show excerpts on the homepage.
   show_excerpts: true
