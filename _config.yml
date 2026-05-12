@@ -1,6 +1,7 @@
 title: Agentic Engineering Playbook
 author: Barbara Ballard
 theme: minima
+baseurl: "/agentic-engineering-playbook"
 
 description: > 
   A collection of patterns for building production software with AI coding agents.
