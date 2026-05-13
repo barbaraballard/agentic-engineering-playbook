@@ -28,5 +28,9 @@ Capture file for "oh yeah and then there is this" moments. Sorted roughly by whi
 
 - **Accepted risk tracking.** Some vulnerabilities can't be fixed (transitive dep locked by another package). Track them in a structured file (`accepted-risks.json`) with: package, version, reason, accepted date, and review date. Quick security checks skip accepted risks; quarterly audits surface them for re-evaluation. The review date triggers a reminder so accepted risks don't become forgotten risks.
 
+## Cross-Cutting / Playbook Intro
+
+- **We keep reinventing established engineering principles with an AI-first twist.** Least privilege, defense in depth, separation of duties, patch management, threat modeling, fail-safe defaults — these all exist in textbooks. But the implementation is completely different when your "developer" is an LLM that pushes 80 actions per hour and routes around any obstacle that isn't structural. This isn't limited to security — it's happening across code quality (proofreading → structural analysis), operations (monitoring → attention-based alerting), team coordination (standup meetings → shared memory + announcements), and workflow (waterfall/agile → parallel agents with review gates). The patterns come from a combination of human skills (product design, systems thinking, domain expertise, human factors awareness) and LLM skills (speed, breadth, tirelessness, code generation). Neither alone arrives at these solutions. The human brings the "what worked before in a different context" and the LLM brings the "here's how to implement it at machine scale." The playbook is the record of what emerges from that collaboration.
+
 ## (Uncategorized)
 
