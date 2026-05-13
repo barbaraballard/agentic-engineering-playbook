@@ -32,5 +32,11 @@ Capture file for "oh yeah and then there is this" moments. Sorted roughly by whi
 
 - **We keep reinventing established engineering principles with an AI-first twist.** Least privilege, defense in depth, separation of duties, patch management, threat modeling, fail-safe defaults — these all exist in textbooks. But the implementation is completely different when your "developer" is an LLM that pushes 80 actions per hour and routes around any obstacle that isn't structural. This isn't limited to security — it's happening across code quality (proofreading → structural analysis), operations (monitoring → attention-based alerting), team coordination (standup meetings → shared memory + announcements), and workflow (waterfall/agile → parallel agents with review gates). The patterns come from a combination of human skills (product design, systems thinking, domain expertise, human factors awareness) and LLM skills (speed, breadth, tirelessness, code generation). Neither alone arrives at these solutions. The human brings the "what worked before in a different context" and the LLM brings the "here's how to implement it at machine scale." The playbook is the record of what emerges from that collaboration.
 
+## Positioning / Voice
+
+- **The playbook is terse by design.** It gives you enough to do it yourself. But it also makes clear how deep the rabbit hole goes. Every chapter is a surface-level treatment of something that's been built and operated at scale. The reader gets principles and checklists. If they want someone who's lived it — that's a conversation.
+
+- **Human factors and AI factors.** The playbook sits at the intersection of two disciplines: understanding how humans actually behave (habituation, attention decay, signal-vs-noise, workaround-seeking) and understanding how AI agents actually behave (confident mistakes at machine speed, routing around obstacles, hallucinating schema, optimizing for completion over safety). Neither discipline alone produces these solutions. The agentic engineering practice emerges from designing systems that account for both.
+
 ## (Uncategorized)
 
