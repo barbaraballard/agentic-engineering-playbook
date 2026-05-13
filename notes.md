@@ -18,5 +18,15 @@ Capture file for "oh yeah and then there is this" moments. Sorted roughly by whi
   3. GitHub's required checks are fast: QA test suite + a **review receipt** (a file generated during `/review` that CI checks for). The receipt isn't security against malicious actors — it's a gate that prevents eager agents from skipping the review they were supposed to run
   4. Result: PRs are small, pre-reviewed, fast to merge. Review tools run locally (free tier), not on GitHub (paid tier). Merge conflicts dropped dramatically.
 
+## Security / Guardrails
+
+- **Security patches and feature work need different pipelines.** Features flow dev-first (beta → main). Security patches flow prod-first (main → beta). Same repo, same branch protection, opposite direction. The trigger: a Next.js update fixed 22 CVEs (8 high), merged to beta at 3 AM, but production wouldn't get the fix until the next manual promotion — potentially weeks. Solution: dependabot and security-only patches target `main` directly, auto-merge forward to `beta` via a PR (not a direct push — the PR provides a canary if the patch breaks in-flight feature work). Feature PRs continue targeting `beta` with full review. Three review tiers:
+  - **Tier 1 (dep bumps):** automated, zero human review — build + test + Aikido scan. Patch/minor auto-merge; major requires manual review.
+  - **Tier 2 (security code fixes touching only deps/config/CI):** local security review pass + build/test, lighter than full beta gate.
+  - **Beta (unchanged):** full 8-pass review receipt for all feature work.
+  - The routing rule is simple: if the fix only touches deps, config, or CI → main-first. If it touches application logic → beta with full review.
+
+- **Accepted risk tracking.** Some vulnerabilities can't be fixed (transitive dep locked by another package). Track them in a structured file (`accepted-risks.json`) with: package, version, reason, accepted date, and review date. Quick security checks skip accepted risks; quarterly audits surface them for re-evaluation. The review date triggers a reminder so accepted risks don't become forgotten risks.
+
 ## (Uncategorized)
 
