@@ -2,6 +2,8 @@
 layout: post
 title: "Security Fundamentals"
 permalink: /security-fundamentals/
+order: 4
+description: "Four layers where risk lives, attack trees as a thinking tool, the acronyms that matter, and layered review as your actual defense."
 ---
 
 # Security Fundamentals

@@ -2,6 +2,8 @@
 layout: post
 title: "Guardrails — Preventing Disasters"
 permalink: /guardrails/
+order: 3
+description: "Eleven plays for preventing humans and LLMs from causing irreversible harm — environment pipelines, database controls, secret hygiene, and the habituation problem."
 ---
 
 # Guardrails — Preventing Disasters

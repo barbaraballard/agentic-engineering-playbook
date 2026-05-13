@@ -2,6 +2,8 @@
 layout: post
 title: "Security in the Mythos Era"
 permalink: /security-mythos/
+order: 5
+description: "Probability of detection is 1. The Attentiveness Quotient for predicting dependency risk, the Mythos Wave playbook, and tech debt as security exposure."
 ---
 
 # Security in the Mythos Era

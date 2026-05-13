@@ -2,6 +2,8 @@
 layout: post
 title: "Code Quality — Every Word Is Spelled Correctly"
 permalink: /code-quality/
+order: 2
+description: "Why traditional review fails for AI-generated code, and a five-stage progression from lint to autonomous code quality agents."
 ---
 
 # Code Quality — Every Word Is Spelled Correctly

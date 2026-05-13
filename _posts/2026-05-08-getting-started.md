@@ -2,6 +2,8 @@
 layout: post
 title: "Getting Started — The Foundations Contract"
 permalink: /getting-started/
+order: 1
+description: "Ground-clearing decisions and the six foundations contract — source control, project instructions, security basics, CI, hosting, and a PR pipeline from day one."
 ---
 
 
