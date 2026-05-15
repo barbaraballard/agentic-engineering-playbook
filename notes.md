@@ -38,5 +38,9 @@ Capture file for "oh yeah and then there is this" moments. Sorted roughly by whi
 
 - **Human factors and AI factors.** The playbook sits at the intersection of two disciplines: understanding how humans actually behave (habituation, attention decay, signal-vs-noise, workaround-seeking) and understanding how AI agents actually behave (confident mistakes at machine speed, routing around obstacles, hallucinating schema, optimizing for completion over safety). Neither discipline alone produces these solutions. The agentic engineering practice emerges from designing systems that account for both.
 
+## Multiplying Throughput / Team of Agents
+
+- **Real-time triage across specialists.** A feature agent asks you a question about which fields to use. You spot a concern — stray child name fields that shouldn't be there. You copy the details, spin up a fresh security agent. Security validates the concern and plans remediation. Now you go back to the feature agent and say "use only the UUID fields, pretend the text fields don't exist." Both agents are moving forward: feature work unblocked with a safe constraint, security remediation in parallel. The human is the router — you see the cross-cutting concern, dispatch it to the right specialist, and unblock the original work with a directional decision. No agent could have done this alone because neither had the other's context.
+
 ## (Uncategorized)
 
