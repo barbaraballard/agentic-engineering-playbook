@@ -42,5 +42,7 @@ Capture file for "oh yeah and then there is this" moments. Sorted roughly by whi
 
 - **Real-time triage across specialists.** A feature agent asks you a question about which fields to use. You spot a concern — stray child name fields that shouldn't be there. You copy the details, spin up a fresh security agent. Security validates the concern and plans remediation. Now you go back to the feature agent and say "use only the UUID fields, pretend the text fields don't exist." Both agents are moving forward: feature work unblocked with a safe constraint, security remediation in parallel. The human is the router — you see the cross-cutting concern, dispatch it to the right specialist, and unblock the original work with a directional decision. No agent could have done this alone because neither had the other's context.
 
+- **Skeleton and catch up — unblock the fleet, don't block on perfection.** A major refactor (Jest → Vitest) got stuck on the last ~100 failing tests. Instead of blocking every feature agent until all tests were migrated, skeleton the failing tests (mark them as placeholder/skip), merge the refactor, unblock the feature agents, and let the QA agents upgrade tests continuously in parallel. The fleet keeps moving while QA catches up. This only works because the agents have separate roles — QA owns test quality, feature agents own features, and neither blocks the other. Perfection is the enemy of throughput; "good enough now, better continuously" beats "perfect eventually."
+
 ## (Uncategorized)
 
