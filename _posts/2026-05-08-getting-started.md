@@ -33,6 +33,19 @@ Migrate now while the codebase is small.
 - [ ] Made a stay-or-migrate decision
 - [ ] If migrating: completed migration before adding new features
 
+### Don't use npm
+
+If you're in the JavaScript/TypeScript ecosystem, switch to pnpm (or Bun) now. npm has structural problems that get worse as your project grows:
+
+- **Phantom dependencies** — npm's flat hoisting lets you import packages you never declared. Your code works until a transitive dep changes and it silently breaks. pnpm's strict isolation catches this immediately.
+- **Supply chain exposure** — npm has been hit by repeated large-scale supply chain attacks. pnpm's content-addressable store and strict lockfile integrity make tampering harder to hide.
+- **Disk and speed with multiple workstreams** — if you're running parallel agents in worktrees, npm installs a full `node_modules` per worktree. pnpm's shared store means the second worktree installs in seconds, not minutes.
+
+This is a small migration early. It's a painful migration later.
+
+- [ ] Using pnpm (or Bun) instead of npm
+- [ ] Lockfile committed and CI uses `--frozen-lockfile`
+
 ### Choose your hosting model
 
 Serverless is often right. But check these before committing:
